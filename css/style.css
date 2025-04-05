@@ -1,0 +1,1749 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    background: rgba(41, 75, 41, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.navbar a {
+    font-family: Inter;
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 50px; 
+}
+
+.navbar a:hover {
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 0px 15px;
+    color: rgba(41, 75, 41, 1);
+}
+
+.container-homepage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+} 
+
+.container-testimonial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+} 
+
+.container-aboutUs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+} 
+
+.container-product {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container-review-testimonial {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0; 
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 350px;
+    overflow: hidden; 
+}
+
+.container-review2-testimonial{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0; 
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    overflow: hidden; 
+}
+
+.container-review-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 90px; 
+    padding: 0;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 600px;
+    margin-bottom: 5%;
+    overflow: hidden; 
+} 
+
+.container-review2-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 90px; 
+    padding: 0;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 100px;
+    margin-bottom: 5%;
+    overflow: hidden; 
+}
+
+.container-button-order-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.background-rawoncard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+}
+
+.rawoncard-notes {
+    padding: 50px;
+    padding-left: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.rawoncard-img {
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+}
+
+.rawoncard-img img{
+    height: 250px;
+    width: 360px;
+}
+
+.title-rawoncard-aboutUs {
+    font-family: Inter;
+    font-size: 30px;
+    color: white;
+}
+
+.text-rawoncard-aboutUs {
+    font-family: Inter;
+    margin-top: 5%;
+    color: white;
+    text-align: left;
+}
+
+.review-testimonial {
+    align-items: center;
+    justify-content: center;
+}
+
+.review-testimonial img {
+    background-color: #f9f9f9;
+    height: 400px;
+    width: 325px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    display: block;
+}
+    
+.menu-product {
+    overflow: hidden;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-product-img {
+    flex: 1;
+    display: flex;
+    object-fit: cover;
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+}
+
+.menu-product-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.textbox-testi {
+    box-sizing: border-box;
+    font-family: Inter;
+    color: black;
+    background-color: white;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 0;
+    width: 325px;
+    height: 255px;
+}
+
+.textbox-menu {
+    color: white;
+    background-color: black;
+    padding: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    grid-template-columns: 1fr 1fr; 
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.content-testi {
+    box-sizing: border-box;
+    width: 325px;
+    height: 144px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-menu {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.name-testi {
+    padding: 10px;
+}
+
+.job-testi {
+    padding: 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.price-menu {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-notes-aboutUs {
+    font-size: 28px;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.text-notes1, .text-notes2 {
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.container-textmid-aboutUs {
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.text-on-mid-aboutUs {
+    text-shadow: 2px 2px 5px grey;
+    font-size: 38px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    align-items: center;
+}
+
+.grid-testi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-menu {
+    border-style: solid;
+    border-color: rgba(99, 175, 15, 1);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.background-homepage {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 105vh;
+    z-index: -1;
+} 
+
+.background-testimonial {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    height: 300vh;
+    z-index: -1;
+}
+
+.background-aboutUs {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    height: 300vh;
+    z-index: -1;
+}
+
+.text-on-top-homepage {
+    font-family: Inter;
+    font-size: 38px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 750px;
+    z-index: 2;
+    position: absolute;
+}
+
+.text-on-top-testimonial {
+    font-family: Inter;
+    font-size: 42px;
+    text-shadow: 2px 2px 5px grey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 450px;
+    z-index: 2;
+    position: absolute;
+}
+
+.text-on-top-aboutUs {
+    font-family: Inter;
+    color: white;
+    background-color: black;
+    width: 30%;
+    height: 100%;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+    padding: 40px;
+}
+
+.text-on-top-product {
+    font-family: Inter;
+    font-size: 32px;
+    text-shadow: 2px 2px 5px grey;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 450px;
+    z-index: 2;
+    position: absolute;
+}
+
+.text-on-top-product2 {
+    font-family: Inter;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 850px;
+    z-index: 2;
+    position: absolute;
+    color: rgba(99, 175, 15, 1);
+    margin-left: 55px;
+    margin-right: 55px;
+    font-weight: 900;
+}
+
+.textbox1-homepage {
+    font-family: Inter;
+    font-size: 20px;
+    flex-direction: column;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 670px;
+    text-align: center;
+}
+
+.text-under-img {
+    color: rgba(99, 175, 15, 1);
+    font-style: italic;
+    z-index: 2;
+}
+
+.textbox2-homepage {
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-right: 120px;
+    margin-left: 120px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.container-menu-homepage {
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-left: 360px;
+    margin-right: 350px;
+    padding: 250px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menu-container-homepage{
+    color: white;
+    width: 640px;
+    height: 640px;
+    position: relative;
+}
+
+.menu-container-homepage img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-top-left-radius: 40px; 
+    border-top-right-radius: 40px;
+}
+
+.text-container-homepage {
+    font-family: Inter;
+    color: rgba(50, 157, 0, 1);
+    background-color: black;
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-cont-homepage {
+    color: white;
+    text-align: right;
+}
+
+.ending-homepage {
+    padding: 50px;
+    font-family: Inter;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.love-ending {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.button-order-now {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(99, 175, 15, 1);
+    padding: 20px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    margin-bottom: 3%;
+}
+
+.button-order-now:hover {
+    background-color: white;
+    color: rgba(99, 175, 15, 1);
+    border: 2px solid rgba(99, 175, 15, 1);
+}
+
+.footer-content{
+    font-family: Inter;
+    font-weight: 300;
+    background-color: rgba(41, 75, 41, 1);
+    padding: 25px;
+    justify-content: center;
+}
+
+.footer-subcontent p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content-testi {
+    font-family: Inter;
+    font-weight: 300;
+    background-color: rgba(41, 75, 41, 1);
+    padding: 25px;
+    justify-content: center;
+}
+
+.footer-content-aboutUs {
+    font-family: Inter;
+    font-weight: 300;
+    background-color: rgba(41, 75, 41, 1);
+    padding: 25px;
+    justify-content: center;
+    bottom: 0;
+}
+
+.footer {
+    background-color: #f8f8f8; 
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+}
+
+.container-aboutUs-text-right {
+    font-family: Inter;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px 20px;
+    text-align: right;
+    font-weight: 600;
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-left: 50%;
+}
+
+.text-on-top-aboutUs-right {
+    padding: 15px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.title-notes-aboutUs-right {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.text-notes1-right, .text-notes2-right {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.custom-alert {
+    font-family: Inter;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: red;
+    color: white;
+    padding: 16px;
+    border-radius: 12px;
+    display: none; 
+    z-index: 1000; 
+    font-size: 16px;
+}
+
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+
+.body-register {
+    min-height: 100vh;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.form-container {
+    font-family: Inter;
+    width: 50%;
+    padding: 40px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff;
+    position: relative;
+    margin-top: 10%; 
+    margin-bottom : 2%;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.back-button {
+    background-color: rgba(41, 75, 41, 1);;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 14px;
+}
+
+.back-button:hover {
+    background-color: rgba(99, 175, 15, 1);
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.form-container input, 
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: rgba(217, 217, 217, 1);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form-container input::placeholder {
+    color: darkgray;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 48%;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-container div {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input {
+    margin: 15px;
+    padding: 0;
+}
+
+.form-container button.register-button {
+    width: 30%;
+    padding: 12px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    font-size: 1.1em;
+}
+
+.form-container button.register-button:hover {
+    background-color: skyblue;
+}
+
+/* (Smartphone L 425 x 800) */
+@media (max-width: 425px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    .background-homepage {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 25%;
+        z-index: -1;
+    } 
+
+    .background-testimonial {
+        height: 90%;
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        overflow: hidden;
+    }
+
+    .background-aboutUs {
+        height: 100%;
+        width: 100%;
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        overflow: hidden;
+    }
+
+    .navbar a {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+
+    .container-homepage {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .container-testimonial {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0; 
+    } 
+
+    .container-aboutUs {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0; 
+    } 
+
+    .container-review-testimonial {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 0; 
+        padding: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 190px;
+        margin-bottom: 0;
+        overflow: hidden; 
+    }
+    
+    .container-review2-testimonial{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 0; 
+        padding: 0;
+        margin: 60px 50px 20px 50px;
+        overflow: hidden; 
+    }
+
+    .container-review-product {
+        display: flex;
+        flex-direction: column;
+        gap: 50px; 
+        padding: 0;
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-top: 300px;
+        margin-bottom: 5%;
+        overflow: hidden; 
+    } 
+    
+    .container-review2-product{
+        display: flex;
+        flex-direction: column;
+        gap: 50px; 
+        padding: 0;
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        overflow: hidden; 
+    }
+
+    .textbox-testi {
+        box-sizing: border-box;
+        font-family: Inter;
+        color: black;
+        background-color: white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 0;
+        width: 110px;
+        height: 90px;
+    }
+
+    .content-testi {
+        font-size: 6px;
+        box-sizing: border-box;
+        width: 90px;
+        height: 62px;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .name-testi {
+        font-size: 6px;
+        padding: 0;
+    }
+    
+    .job-testi {
+        padding: 0;
+        font-weight: 500;
+        font-size: 8px;
+    }
+
+    .text-on-top {
+        font-size: 10px;
+        margin-top: 360px;
+    }
+
+    .text-on-top-homepage {
+        font-size: 12px;
+        margin-top: 80%;
+    }
+
+    .text-on-top-testimonial{
+        font-family: Inter;
+        font-size: 14px;
+        text-shadow: 2px 2px 5px grey;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+        z-index: 2;
+        position: absolute;
+    }
+
+    .text-on-top-product {
+        font-family: Inter;
+        font-size: 16px;
+        text-shadow: 2px 2px 5px grey;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+        z-index: 2;
+        position: absolute;
+    }
+    
+    .text-on-top-product2 {
+        font-family: Inter;
+        font-size: 8px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 500px;
+        z-index: 2;
+        position: absolute;
+        color: rgba(99, 175, 15, 1);
+        margin-left: 55px;
+        margin-right: 55px;
+        font-weight: 900;
+    }
+
+    .title-notes-aboutUs {
+        font-size: 8px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .text-on-top-aboutUs {
+        width: 50%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .review-testimonial img {
+        background-color: #f9f9f9;
+        height: 130px;
+        width: 110px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: block;
+    }
+
+    .textbox1-homepage {
+        margin-top: 55%;
+        margin-bottom: 0;
+        margin-right: 7px;
+        margin-left: 7px;
+        font-size: 8px;
+    }
+
+    .textbox2-homepage {
+        align-items: flex-start;
+        margin-top: 25px;
+        margin-right: 8%;
+        margin-left: 8%;
+        font-size: 18px;
+    }
+
+    .container-menu-homepage {
+        margin-right: 90px;
+        margin-left: 90px;
+        padding: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .menu-container-homepage {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-container-homepage {
+        padding: 10px;
+        font-size: 6px;
+    }
+
+    .ending-homepage {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .love-ending {
+        margin-top: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-content{
+        font-family: Inter;
+        font-weight: 200;
+        background-color: rgba(41, 75, 41, 1);
+        padding: 10px;
+        justify-content: center;
+    }
+    
+    .footer-subcontent p {
+        color: white;
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .footer-content-testi {
+        font-family: Inter;
+        font-weight: 200;
+        background-color: rgba(41, 75, 41, 1);
+        padding: 10px;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .container-aboutUs {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .background-aboutUs {
+        object-fit: cover;
+        margin-top: 12px;
+        height: 100%;
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+
+    .container-aboutUs-text {
+        margin-top: 110px;
+        margin-bottom: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text-on-top-aboutUs {
+        padding: 15px;
+        margin: 10px 50% 0 20px;
+        width: auto;
+        height: auto;
+    }
+
+    .title-notes-aboutUs {
+        font-size: 8px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .text-notes1, .text-notes2 {
+        font-size: 6px;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+
+    .title-notes-aboutUs-right {
+        font-size: 8px;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .container-aboutUs-text-right {
+        padding: 10px 20px;
+        margin-right: 50px;
+        margin-top: 12px;
+        margin-left: 45%;
+    }
+    
+    .text-on-top-aboutUs-right {
+        padding: 5px;
+        margin: 5px 0;
+        width: 100%;
+    }
+    
+    .text-notes1-right, .text-notes2-right {
+        font-size: 6px;
+        margin-top: 10px;
+        text-align: right;
+        line-height: 1.5;
+    }
+
+    .container-textmid-aboutUs {
+        margin: 10px;
+    }
+
+    .text-on-mid-aboutUs {
+        font-size: 8px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    .container-rawoncard-aboutUs {
+        margin: 20px;
+        padding: 0;
+    }
+
+    .background-rawoncard {
+        margin: 10px;
+    }
+
+    .rawoncard-img {
+        padding: 10px;
+        margin-top: 25px;
+    }
+
+    .rawoncard-img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .rawoncard-notes {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text-rawoncard-aboutUs {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .title-rawoncard-aboutUs {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer-content{
+        font-family: Inter;
+        font-weight: 300;
+        background-color: rgba(41, 75, 41, 1);
+        padding: 25px;
+        justify-content: center;
+    }
+
+    .footer-content-aboutUs {
+        bottom: 0;
+        padding: 20px;
+    }
+
+    .button-order-now {
+        font-family: Inter, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(99, 175, 15, 1);
+        padding: 5px 10px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        text-align: center;
+        text-decoration: none; 
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: px;
+    }
+    
+    .button-order-now:hover {
+        background-color: white;
+        color: rgba(99, 175, 15, 1);
+        border: 2px solid rgba(99, 175, 15, 1);
+    }
+
+    .form-container {
+        margin-top: 110px;
+        width: 90%;
+        padding: 15px;
+    }
+
+    .form-container h2 {
+        font-size: 1.2em;
+    }
+
+    .back-button {
+        padding: 6px 12px;
+        font-size: 10px;
+        top: 5px;
+        left: 5px;
+    }
+
+    .form-container label {
+        margin: 6px 0 3px;
+    }
+
+    .form-container input, 
+    .form-container select {
+        padding: 6px;
+        margin-bottom: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .checkbox-container {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .form-container button.register-button {
+        width: 60%;
+        padding: 8px 10px;
+        font-size: 0.9em;
+    }
+
+    .custom-alert {
+        font-family: Inter;
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+        display: none; 
+        z-index: 1000; 
+        font-size: 12px;
+    }
+}
+
+/* (Tablet  */
+@media (min-width: 426px) and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 20px;
+        background: rgba(41, 75, 41, 1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .background-homepage {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 40%;
+        z-index: -1;
+    } 
+
+    .background-testimonial {
+        top: 40px;
+        height: 140%;
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        overflow: hidden;
+    }
+
+    .background-aboutUs {
+        top: 40px;
+        height: 100%;
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        overflow: hidden;
+    }
+
+    .navbar a {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+
+    .container-homepage {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .container-review-testimonial {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 0; 
+        padding: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 190px;
+        margin-bottom: 0;
+        overflow: hidden; 
+    }
+
+    .container-review2-testimonial{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 0; 
+        padding: 0;
+        margin: 60px 50px 20px 50px;
+        overflow: hidden; 
+    }
+
+    .container-review-product {
+        display: flex;
+        flex-direction: column;
+        gap: 60px; 
+        padding: 0;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: 400px;
+        margin-bottom: 5%;
+        overflow: hidden; 
+    } 
+    
+    .container-review2-product{
+        display: flex;
+        flex-direction: column;
+        gap: 60px; 
+        padding: 0;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        overflow: hidden; 
+    }
+
+    .textbox-testi {
+        box-sizing: border-box;
+        font-family: Inter;
+        color: black;
+        background-color: white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 0;
+        width: 180px;
+        height: 140px;
+    }
+
+    .content-testi {
+        font-size: 8px;
+        font-weight: 400;
+        box-sizing: border-box;
+        width: 160px;
+        height: 90px;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .content-menu {
+        font-size: 22px;
+    }
+
+    .price-menu {
+        font-size: 22px;
+    }
+
+    .name-testi {
+        font-size: 8px;
+        padding: 0;
+    }
+    
+    .job-testi {
+        padding: 0;
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    .text-on-top {
+        font-size: 16px;
+        margin-top: 420px;
+    }
+
+    .text-on-top-testimonial{
+        font-family: Inter;
+        font-size: 20px;
+        text-shadow: 2px 2px 5px grey;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+        z-index: 2;
+        position: absolute;
+    }
+
+    .text-on-top-product {
+        font-family: Inter;
+        font-size: 30px;
+        text-shadow: 2px 2px 5px grey;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 45%;
+        z-index: 2;
+        position: absolute;
+    }
+    
+    .text-on-top-product2 {
+        font-family: Inter;
+        font-size: 14px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 600px;
+        z-index: 2;
+        position: absolute;
+        color: rgba(99, 175, 15, 1);
+        margin-left: 55px;
+        margin-right: 55px;
+        font-weight: 900;
+    }
+
+    .review-testimonial img {
+        background-color: #f9f9f9;
+        height: 220px;
+        width: 180px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: block;
+    }
+
+    .textbox1-homepage {
+        margin-top: 350px;
+        margin-bottom: 0;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .textbox2-homepage {
+        align-items: flex-start;
+        margin-top: 35px;
+        margin-right: 8%;
+        margin-left: 8%;
+        font-size: 20px;
+    }
+
+    .container-menu-homepage {
+        margin-right: 15%;
+        margin-left: 15%;
+        padding: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .menu-container-homepage {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-container-homepage {
+        padding: 10px;
+        font-size: 6px;
+    }
+
+    .ending-homepage {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .love-ending {
+        margin-top: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-content{
+        font-family: Inter;
+        font-weight: 200;
+        background-color: rgba(41, 75, 41, 1);
+        padding: 10px;
+        justify-content: center;
+    }
+    
+    .footer-subcontent p {
+        color: white;
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .footer-content-testi {
+        font-family: Inter;
+        font-weight: 200;
+        background-color: rgba(41, 75, 41, 1);
+        padding: 10px;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .container-aboutUs {
+        flex-direction: column;
+        padding: 0 30px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .background-aboutUs {
+        object-fit: cover;
+        margin-top: 42px;
+        height: 100%;
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+
+    .container-aboutUs-text {
+        margin-top: 110px;
+        margin-bottom: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .text-on-top-aboutUs {
+        padding: 15px;
+        margin: 10px 50% 0 20px;
+        width: auto;
+        height: auto;
+    }
+
+    .title-notes-aboutUs {
+        font-size: 10px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .text-notes1, .text-notes2 {
+        font-size: 8px;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+
+    .title-notes-aboutUs-right {
+        font-size: 10px;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .container-aboutUs-text-right {
+        padding: 15px 30px;
+        margin-right: 50px;
+        margin-top: 12px;
+        margin-left: 45%;
+    }
+    
+    .text-on-top-homepage {
+        font-size: 24px;
+        margin-top: 50%;
+    }
+
+    .text-on-top-aboutUs-right {
+        padding: 5px;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .text-notes1-right, .text-notes2-right {
+        font-size: 8px;
+        margin-top: 10px;
+        text-align: right;
+        line-height: 1.5;
+    }
+
+    .footer-subcontent p {
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .footer-content-aboutUs {
+        bottom: 0;
+        padding: 25px;
+    }
+
+    .container-textmid-aboutUs {
+        margin: 10px;
+    }
+
+    .text-on-mid-aboutUs {
+        font-size: 14px;
+        margin-top: 4%;
+        margin-bottom: 1%;
+    }
+
+    .container-rawoncard-aboutUs {
+        margin: 20px;
+        padding: 0;
+    }
+
+    .background-rawoncard {
+        margin: 10px;
+    }
+
+    .rawoncard-img {
+        padding: 10px;
+        margin-top: 25px;
+    }
+
+    .rawoncard-img img {
+        height: 80%;
+        width: 100%;
+    }
+
+    .rawoncard-notes {
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        justify-content: center; 
+    }
+
+    .text-rawoncard-aboutUs {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .title-rawoncard-aboutUs {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-content {
+        font-family: Inter;
+        font-weight: 300;
+        background-color: rgba(41, 75, 41, 1);
+        padding: 25px;
+        justify-content: center;
+    }
+
+    .footer-content-aboutUs {
+        bottom: 0;
+        padding: 25px;
+    }
+
+    .button-order-now {
+        font-family: Inter, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(99, 175, 15, 1);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        text-align: center;
+        text-decoration: none; 
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: px;
+    }
+    
+    .button-order-now:hover {
+        background-color: white;
+        color: rgba(99, 175, 15, 1);
+        border: 2px solid rgba(99, 175, 15, 1);
+    }
+
+    .form-container {
+        margin-top: 120px;
+        width: 70%;
+        padding: 30px;
+    }
+
+    .form-container h2 {
+        font-size: 1.8em;
+    }
+
+    .back-button {
+        padding: 8px 16px;
+        font-size: 12px;
+        top: 15px;
+        left: 15px;
+    }
+
+    .form-container label {
+        margin: 10px 0 5px;
+    }
+
+    .form-container input, 
+    .form-container select {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .column {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .checkbox-container {
+        margin-bottom: 20px;
+    }
+
+    .form-container button.register-button {
+        width: 40%;
+        padding: 12px 20px;
+        font-size: 1em;
+    }
+
+    .custom-alert {
+        padding: 20px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+}
+
